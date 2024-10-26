@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Afacad";
+  src: url("/fonts/afacad-regular.ttf");
+}
+
+@font-face {
+  font-family: "Pearl";
+  src: url("/fonts/tan-pearl.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &::before,
+  &::after {
+    box-sizing: inherit;
+  }
+}
+
+body {
+  font-family: "Afacad", sans-serif;
+
+  &:has([data-overlay="true"]) {
+    overflow: hidden;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+}
