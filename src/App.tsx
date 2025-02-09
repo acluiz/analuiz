@@ -1,5 +1,7 @@
+import { Hero } from "@/sections";
+
 function App() {
-  return <h1>Hello, world!</h1>;
+  return <Hero />;
 }
 
 export default App;
