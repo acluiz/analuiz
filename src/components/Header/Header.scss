@@ -1,0 +1,40 @@
+@use "@/styles/tokens/" as *;
+@use "@/styles/mixins/" as *;
+
+.header {
+  padding: 32px 0;
+  background-color: $color-neutral-20;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: $spacing-lg;
+  }
+
+  &__navigation {
+    display: flex;
+    align-items: center;
+    gap: $spacing-sm;
+  }
+
+  &__socialMedia {
+    display: flex;
+    align-items: center;
+    gap: $spacing-xxs;
+  }
+
+  &__anchor {
+    @include typography(
+      $font-size-sm,
+      $line-height-sm,
+      $font-weight-regular,
+      $color-primary
+    );
+  }
+}

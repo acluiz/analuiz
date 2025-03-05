@@ -32,6 +32,12 @@ body {
   }
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+}
+
 h1,
 h2,
 h3,
