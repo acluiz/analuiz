@@ -28,11 +28,11 @@ export const Header = () => {
 
             <div className="header__socialMedia">
               <a href={LINKEDIN_URL} target="_blank" rel="noreferrer">
-                <Icon color="blue" size="medium" name="github" />
+                <Icon size="medium" color="blue" name="github" />
               </a>
 
               <a href={GITHUB_URL} target="_blank" rel="noreferrer">
-                <Icon color="blue" size="medium" name="linkedin" />
+                <Icon size="medium" color="blue" name="linkedin" />
               </a>
             </div>
           </div>

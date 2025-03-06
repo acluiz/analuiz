@@ -33,9 +33,10 @@ body {
 }
 
 .main {
-  display: flex;
-  flex-direction: column;
   height: 100dvh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
 }
 
 h1,

@@ -1,0 +1,12 @@
+@use "@/styles/mixins/typography" as *;
+@use "@/styles/tokens" as *;
+
+.subtitle {
+  @include typography(
+    $font-size-md,
+    $line-height-md,
+    $font-weight-regular,
+    $color-primary,
+    $font-primary
+  );
+}

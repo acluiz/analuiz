@@ -2,9 +2,24 @@
 @use "@/styles/mixins/" as *;
 
 .icon {
+  svg path {
+    transition: all ease-in-out 0.2s;
+  }
+
+  &--small {
+    width: 16px;
+    height: 16px;
+  }
+
   &--medium {
     width: 24px;
     height: 24px;
+  }
+
+  &--light {
+    svg path {
+      stroke: $color-neutral-20;
+    }
   }
 
   &--blue {

@@ -1,7 +1,7 @@
 @use "@/styles/tokens/" as *;
 @use "@/styles/mixins/" as *;
 
-.hero {
+.about {
   min-height: 100dvh;
   scroll-snap-align: start;
   display: flex;
@@ -9,13 +9,12 @@
   justify-content: center;
   background-color: $color-neutral-20;
 
-  &__title {
-    @include typography(
-      $font-size-huge,
-      132px,
-      $font-weight-regular,
-      $color-primary,
-      $font-primary
-    );
+  &__text {
+    @include typography($font-size-sm, $line-height-sm);
+    margin-top: $spacing-xxs;
+  }
+
+  &__button {
+    margin-top: $spacing-sm;
   }
 }

@@ -1,0 +1,13 @@
+@use "@/styles/mixins/typography" as *;
+@use "@/styles/tokens" as *;
+
+.button {
+  @include typography();
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  gap: $spacing-nano;
+  padding: $spacing-quarck $spacing-xxxs;
+  border: 1px solid $color-neutral-10;
+  background-color: $color-neutral-10--transparent;
+}
