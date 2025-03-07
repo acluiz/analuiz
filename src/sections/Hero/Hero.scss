@@ -6,16 +6,25 @@
   scroll-snap-align: start;
   display: flex;
   align-items: center;
-  justify-content: center;
   background-color: $color-neutral-20;
 
   &__title {
     @include typography(
       $font-size-huge,
-      132px,
+      $line-height-huge,
       $font-weight-regular,
       $color-primary,
       $font-primary
     );
+  }
+
+  &__subtitle {
+    @include typography($font-size-sm, $line-height-sm);
+  }
+
+  &__buttons {
+    display: flex;
+    gap: $spacing-xxxs;
+    margin-top: $spacing-xxs;
   }
 }

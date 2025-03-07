@@ -24,7 +24,7 @@ export const About = ({ reference }) => {
 
           <Button customClass="about__button" onClick={() => {}}>
             <>
-              <Icon name="file" size="small" color="blue" />
+              <Icon name="file" size="small" color="secondary" />
               See resume
             </>
           </Button>

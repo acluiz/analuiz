@@ -2,12 +2,15 @@
 @use "@/styles/tokens" as *;
 
 .button {
-  @include typography();
+  @include typography($color: $color-secondary);
+
   display: flex;
   align-items: center;
+  justify-content: center;
   border-radius: 16px;
   gap: $spacing-nano;
   padding: $spacing-quarck $spacing-xxxs;
   border: 1px solid $color-neutral-10;
   background-color: $color-neutral-10--transparent;
+  transition: all ease-in-out 200ms;
 }

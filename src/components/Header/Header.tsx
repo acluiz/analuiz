@@ -27,12 +27,12 @@ export const Header = () => {
             </nav>
 
             <div className="header__socialMedia">
-              <a href={LINKEDIN_URL} target="_blank" rel="noreferrer">
-                <Icon size="medium" color="blue" name="github" />
+              <a href={GITHUB_URL} target="_blank" rel="noreferrer">
+                <Icon size="medium" color="primary" name="linkedin" />
               </a>
 
-              <a href={GITHUB_URL} target="_blank" rel="noreferrer">
-                <Icon size="medium" color="blue" name="linkedin" />
+              <a href={LINKEDIN_URL} target="_blank" rel="noreferrer">
+                <Icon size="medium" color="primary" name="github" />
               </a>
             </div>
           </div>
