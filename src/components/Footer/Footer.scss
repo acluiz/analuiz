@@ -1,0 +1,9 @@
+@use "@/styles/mixins/typography" as *;
+@use "@/styles/tokens/spacing" as *;
+
+.footer {
+  @include typography();
+
+  text-align: center;
+  padding: $spacing-xxs;
+}

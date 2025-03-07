@@ -1,8 +1,6 @@
-import { useEffect, useRef, useState } from "react";
-
-import { About, Hero } from "@/sections";
-
 import { Header } from "@/components";
+
+import { About, Contact, Hero } from "@/sections";
 
 function App() {
   return (
@@ -11,6 +9,7 @@ function App() {
       <main className="main">
         <Hero />
         <About />
+        <Contact />
       </main>
     </>
   );

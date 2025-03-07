@@ -2,14 +2,16 @@
 @use "@/styles/mixins/" as *;
 
 .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   &--small {
     width: 16px;
-    height: 16px;
   }
 
   &--medium {
     width: 24px;
-    height: 24px;
   }
 
   &--light {

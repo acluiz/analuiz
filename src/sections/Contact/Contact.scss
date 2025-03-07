@@ -1,0 +1,31 @@
+@use "@/styles/tokens/" as *;
+@use "@/styles/mixins/" as *;
+
+.contact {
+  min-height: 100dvh;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  background-color: $color-neutral-20;
+
+  &__wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__info {
+    @include typography($font-size-sm, $line-height-sm);
+    display: flex;
+    align-items: center;
+    margin-top: $spacing-xxs;
+    gap: $spacing-nano;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: $spacing-xxxs;
+    margin-top: $spacing-xxs;
+  }
+}

@@ -2,9 +2,9 @@ import { Button, Container, Icon, Subtitle } from "@/components";
 
 import "./About.scss";
 
-export const About = ({ reference }) => {
+export const About = () => {
   return (
-    <section ref={reference} className="about">
+    <section className="about">
       <Container customClass="about__wrapper">
         <>
           <Subtitle text="About me" />
